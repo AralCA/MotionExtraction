@@ -86,9 +86,15 @@ MOTION_THRESHOLD = 0.1      # Minimum motion for recursion
 
 **NEW**: This project can be adapted for drone obstacle detection and 3D mapping!
 
+### 📚 Start Here: [**DOCUMENTATION INDEX**](DOCUMENTATION_INDEX.md) ⭐
+
+Complete guide with all documentation, hardware recommendations, and implementation steps.
+
 ### Quick Links
 - 📋 **[Feasibility Report](DRONE_FEASIBILITY_REPORT.md)** - Comprehensive analysis for using this on a Raspberry Pi drone
-- 🚀 **[Quick Start Guide](QUICK_START_GUIDE.md)** - TL;DR version with step-by-step instructions
+- 🚀 **[Quick Start Guide](QUICK_START_GUIDE.md)** - TL;DR version with step-by-step instructions  
+- 🗺️ **[Implementation Roadmap](IMPLEMENTATION_ROADMAP.md)** - Visual diagrams and flowcharts
+- ❓ **[FAQ](FAQ.md)** - 32 questions answered with troubleshooting
 - 💻 **[Example Code](drone_obstacle_detection_example.py)** - Working example of obstacle detection
 - ⚙️ **[Drone Config](config_drone.py)** - Optimized configuration for real-time processing
 
