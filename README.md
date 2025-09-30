@@ -79,3 +79,35 @@ MOTION_THRESHOLD = 0.1      # Minimum motion for recursion
 - Live visualization window with motion analysis
 - Optional output video file with embedded analysis
 - Console progress updates
+
+---
+
+## 🚁 Drone Integration
+
+**NEW**: This project can be adapted for drone obstacle detection and 3D mapping!
+
+### Quick Links
+- 📋 **[Feasibility Report](DRONE_FEASIBILITY_REPORT.md)** - Comprehensive analysis for using this on a Raspberry Pi drone
+- 🚀 **[Quick Start Guide](QUICK_START_GUIDE.md)** - TL;DR version with step-by-step instructions
+- 💻 **[Example Code](drone_obstacle_detection_example.py)** - Working example of obstacle detection
+- ⚙️ **[Drone Config](config_drone.py)** - Optimized configuration for real-time processing
+
+### What's Possible?
+✅ **Obstacle Detection** using RealSense depth camera  
+✅ **Real-time Processing** on Raspberry Pi 4/5 (15-20 FPS)  
+✅ **3D Surface Mapping** with SLAM integration  
+⚠️ **Requires Modifications** - See feasibility report for details
+
+### Hardware Needed
+- Raspberry Pi 4B/5 (8GB recommended) - ~$75-80
+- Intel RealSense D435i depth camera - ~$200
+- Additional mounting hardware - ~$40
+- **Total**: ~$315-340
+
+### Key Stats
+- **Processing Speed**: 15-20 FPS at 416x416 resolution
+- **Detection Range**: 0.5-5 meters with depth camera
+- **Weight Impact**: ~150-200g added to drone
+- **Development Time**: 12-16 weeks part-time
+
+See the full [Feasibility Report](DRONE_FEASIBILITY_REPORT.md) for complete details, implementation guide, and cost analysis.
